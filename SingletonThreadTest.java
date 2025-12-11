@@ -7,6 +7,7 @@ public class SingletonThreadTest implements Runnable {
 
         // Print the thread name and the Singleton's hash code
         System.out.println(Thread.currentThread().getName() +
+
                 " - Singleton HashCode: " +
                 singleton.hashCode());
     }

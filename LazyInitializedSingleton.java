@@ -10,6 +10,7 @@ public class LazyInitializedSingleton {
     // 3. The public static method to provide the global access point
     public static LazyInitializedSingleton getInstance() {
         if (instance == null) {
+
             instance = new LazyInitializedSingleton();
         }
         return instance;

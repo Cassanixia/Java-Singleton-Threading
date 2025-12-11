@@ -1,4 +1,4 @@
-# Java-Singleton-Threading-Demo
+# Java-Singleton-Threading-Demo "Not Thread-Safe"
 
 This project demonstrates a thread-unsafe implementation of the Lazy Initialized Singleton pattern in Java.
 
